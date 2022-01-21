@@ -1,0 +1,144 @@
+
+.site-header {
+   display: flex;
+   margin-bottom: 45px;
+}
+
+.site-header__hero {
+   margin-right: auto;
+   padding-top: 44px;
+}
+
+.header__nav {
+   padding-top: 50px;
+}
+
+.nav__list {
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.nav__item {
+   list-style: none;
+}
+
+.nav__item--active {
+   margin-right: 32px;
+   margin-left: 33px;
+}
+
+.nav__link {
+   text-decoration: none;
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   color: #83888F;
+   
+   &:hover {
+      color: #333D4B;
+   }
+}
+
+
+
+.nav__link--active {
+   margin-right: 32px;
+   margin-left: 33px;
+   text-decoration: none;
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   color: #83888F;
+   
+   &:hover {
+      color: #333D4B;
+   }
+}
+
+.site-header__hamburg-btn {
+   padding-top: 50px;
+   display: none;
+   font-size: 25px;
+   background-color: transparent;
+   border: none;
+}
+
+
+
+
+@media only screen and  (max-width:768px) and (min-width:425px) {
+   
+  
+   
+   .header__head {
+      padding-top: 40px;
+   }
+
+   .site-header__hero {
+      width: 236px;
+      height: 26px;
+   }
+   
+   // .header__hero {
+   //    margin-right: auto;
+   // }
+   
+   .nav__item__link {
+      font-size: 10px;
+      line-height: 104%;
+      font-weight: normal;
+      letter-spacing: 0.92px;
+   }
+   
+   .nav__link--active {
+      font-size: 10px;
+      line-height: 104%;
+      font-weight: normal;
+      letter-spacing: 0.92px;
+   }
+   
+}
+
+@media only screen and  (max-width:768px) {
+   .nav__list {
+      display: none;
+   }
+   
+   .site-header__hamburg-btn {
+      display: block;
+   }
+   
+}
+
+
+@media only screen and (max-width:425px) and (min-width:375px) {
+   // .container {
+   //    width: 420px;
+   //    padding: 0 20px;   
+   // }
+
+   .site-header__hero {
+      width: 200px;
+      height: 20px;
+   }
+   
+}
+
+@media only screen and (max-width:375px) {
+   // .container {
+   //    width: 380px;
+   //    padding: 0 20px;
+   // }
+
+   .site-header__hero {
+      width: 163px;
+      height: 18px;
+   }
+
+}

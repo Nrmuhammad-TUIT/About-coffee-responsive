@@ -1,0 +1,301 @@
+
+.main__middle {
+   position: relative;
+   margin-bottom: 200px;
+   background-image: url(../../images/Bitmap-back-main--middle.png);
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   display: flex;
+   
+}
+
+.main__middle__image{
+   border-radius: 5px;
+}
+
+.main__middle__info {
+   max-width: 445px;
+   padding-top: 88px;
+   padding-left: 85px;
+   padding-bottom: 176px;
+   max-width: 540px;
+   
+
+}
+
+.main__middle__info__title {
+   margin-top: 0;
+   // margin-bottom: 32px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+}
+
+.main__middle__info__text {
+   margin: 0;  
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+}
+
+.main__middle__image {
+   position: absolute;
+   top: -70px;
+   left: 750px;
+   border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width:1270px) {
+         .main__middle__image{
+               left: 730px;
+               max-width: 440px;
+         }
+}
+
+@media only screen and (max-width:1240px) {
+   .main__middle__image{
+         left: 700px;
+   }
+}
+
+@media only screen and (max-width:1210px) {
+   .main__middle__image{
+         left: 680px;
+         max-width: 430px;
+   }
+}
+
+@media only screen and (max-width:1190px) {
+   .main__middle__image{
+         left: 650px;
+         max-width: 410px;
+   }
+
+   .main__middle__info {
+      max-width: 445px;
+      margin-right: 20px;
+   }
+
+   .main__middle__info__title {
+      font-size: 38px;
+      line-height: 48px;
+   }
+
+   .main__middle__info__text {
+      font-size: 15px;
+      line-height: 25px;
+   }
+}
+
+@media only screen and (max-width:1120px) {
+   .main__middle__image{
+         left: 620px;
+   }
+}
+
+@media only screen and (max-width:1100px) {
+   .main__middle__image{
+         left: 600px;
+   }
+
+   .main__middle__info__title {
+      font-size: 36px;
+      line-height: 48px;
+   }
+
+   .main__middle__info__text {
+      font-size: 14px;
+      line-height: 24px
+   }
+}
+
+
+@media only screen and (max-width:1080px) {
+   .main__middle__image{
+         left: 580px;
+   }
+}
+
+@media only screen and (max-width:1050px) {
+   .main__middle__image{
+         left: 550px;
+         max-height: 450px;
+   }
+}
+
+@media only screen and (max-width:1020px) {
+   .main__middle__image{
+         left: 530px;
+   }
+}
+
+@media only screen and (max-width:1000px) {
+   .main__middle__image{
+      max-height: 430px;
+         left: 510px;
+   }
+}
+
+@media only screen and (max-width:980px) {
+   .main__middle__image{
+         left: 480px;
+   }
+}
+
+@media only screen and (max-width:955px) {
+   
+   .main__middle__image{
+        left: 450px;
+   }
+
+   .main__middle__info {
+      max-width: 400px;
+   }
+
+}
+
+@media only screen and (max-width:930px) {
+
+   .main__middle__image{
+         
+         left: 420px;
+   }
+}
+
+@media only screen and (max-width:900px) {
+   .main__middle__image{
+         max-width: 673px;
+         max-height: 400px;
+   }
+}
+
+@media only screen and (max-width:860px) {
+   .main__middle__image{
+      max-height: 390px; ;
+         
+   }
+
+   .main__middle__info__title {
+      font-size: 32px;
+      line-height: 48px;
+   }
+
+   .main__middle__info__text {
+      font-size: 14PX;
+      line-height: 24px;
+   }
+}
+
+@media only screen and (max-width:768px) {
+   .main__middle {
+      background-image: url(../../images/Mask.png);
+      background-repeat: no-repeat;
+      max-height: 500px;
+   }
+
+
+   .main__middle__image {
+      max-width: 673px;
+      max-height: 300px;
+      top: -150px;
+      left: 190px;
+   }
+
+   // .main__middle__info {
+   //    margin-right: 0;
+   //    padding-top: 100px;
+   //    padding-bottom: 80px;
+   //    max-width: 540px;
+   // }
+     
+   .main__middle__info {
+      text-align: center;
+      max-width: 580px;
+      margin-right: 0;
+      padding-top: 150px;
+       padding-right: 74px;
+      padding-bottom: 67px;
+      padding-left: 74px;
+   }
+   
+}
+
+@media only screen and (max-width:700px) {
+   .main__middle__image {
+      left: 170px;
+   }
+}
+
+@media only screen and (max-width:600px) {
+   .main__middle__image {
+      left: 140px;
+   }
+
+   .main__middle__info__title {
+      font-size: 30px;
+      line-height: 40px;
+   }
+}
+
+@media only screen and (max-width:540px) {
+   .main__middle__image {
+      left: 110px;
+   }
+
+   .main__middle__info {
+      padding-top: 170px;
+   }
+
+}
+
+@media only screen and (max-width:500px) {
+   .main__middle__image {
+      left: 90px;
+   }
+
+   .main__middle__info {
+      padding-bottom: 20px;
+   }
+}
+
+@media only screen and (max-width:480px) {
+   
+   .main__middle__image {
+      max-width: 350px;
+      max-height: 300px;
+   }
+
+   .main__middle__info__title {
+      font-size: 28px;
+      line-height: 28px;
+   }
+}
+
+@media only screen and (max-width:440px) {
+
+   .main__middle {
+      background-image: url(../../images/Bitmap-mobile4.png);
+      background-repeat: no-repeat;
+      border-radius: 5px;
+   }
+
+   .main__middle__image {
+      max-width: 300px;
+      max-height: 200px;
+      top: -100px;
+      left: 70px;
+   }
+
+   .main__middle__info {
+      padding-top: 130px;
+   }
+
+}
