@@ -433,11 +433,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 45px;
 }
 
 .site-header__hero {
-  margin-right: auto;
   padding-top: 44px;
 }
 
@@ -724,7 +726,7 @@ img {
   }
   .main-commintment__info__text {
     font-size: 14px;
-    line: height 24px;
+    line-height: 24px;
   }
 }
 

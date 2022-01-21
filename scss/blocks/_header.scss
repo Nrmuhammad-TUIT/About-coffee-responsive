@@ -1,11 +1,11 @@
 
 .site-header {
    display: flex;
+   justify-content: space-between;
    margin-bottom: 45px;
 }
 
 .site-header__hero {
-   margin-right: auto;
    padding-top: 44px;
 }
 
