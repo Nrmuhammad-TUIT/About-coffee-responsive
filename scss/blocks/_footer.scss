@@ -1,9 +1,9 @@
 .footer-elements {
-   display: flex;
-   background-color:  #2C343E;
+   display:flex;
+   background-color: #2C343E;
    background-image: url(../../images/Mask-footer.png);
-   border-radius: 10px;
-   margin-bottom: 100px;
+   border-radius:10px;
+   margin-bottom:100px;
 }
 
 .footer-hero {
@@ -248,9 +248,13 @@
    }
 
    .footer-info {
-      margin-right: 80px;
-      margin-left: 80px;
+      // margin-right: 80px;
+      // margin-left: 80px;
       margin-bottom: 40px;
       padding-top: 0;
+   }
+
+   .footer-info__list {
+      padding: 0;
    }
 }

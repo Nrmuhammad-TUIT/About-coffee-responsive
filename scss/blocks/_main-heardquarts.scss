@@ -80,6 +80,7 @@
 @media only screen and (max-width:500px) {
    .main-footer__list {
       flex-wrap: wrap;
+      flex-direction: column;
    }
 
    .main-footer__item {
